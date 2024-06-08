@@ -21,5 +21,6 @@ int main() {
 	cout << "Enter the second number:"; cin >> *number_2;
 	result = bigger(number_1, number_2);
 	cout << *result << endl;
+	delete number_1, number_2, result;
 	return 0;
 }
